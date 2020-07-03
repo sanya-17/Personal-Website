@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <title>Courses</title>
+    <title>Experience</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 
 <body>
+    <!--TODO: Make Read More buttons work-->
     <!-- navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-light navbar-inverse" id="navbar">
         <div class="container">
@@ -30,10 +31,10 @@
                         <a class="nav-link" href="projects.html">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="experience.html">Experience</a>
+                        <a class="nav-link" href="experience.html">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="courses.html">Courses</a>
+                        <a class="nav-link active " href="courses.html">Courses</a>
                     </li>
                 </ul>
             </div>
@@ -42,19 +43,127 @@
     <!--cards-->
     <div class="container mt-5">
         <div class="row">
-            <div class="col-md-4 col-lg-3">
-
+            <!--Card 1-->
+            <div class="col-sm-6 col-lg-4 mb-5">
+                <div class="item-card">
+                    <div class="card-header text-left">
+                        ECE 0302 - Data Structures and Algorithms.
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <p class="lead"> This course covers the fundementals of data structures
+                                and algorithms
+                            </p>
+                            <p class="text-muted text-left"> Spring 2020 </p>
+                            <button type=button class="btn btn-primary"> Read more </button>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <span class="btn btn-primary btn-sm m-2"> C++</span>
+                            <span class="btn btn-primary btn-sm m-2"> Data Structures</span>
+                            <span class="btn btn-primary btn-sm m-2"> Algorithms</span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-md-4 col-lg-3">
-
+            <!--Card 2-->
+            <div class="col-sm-6 col-lg-4 mb-5">
+                <div class="item-card">
+                    <div class="card-header text-left">
+                        ECE 0202 - Embedded Processors and Interfacing
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <p class="lead"> This course covers the fundementals of embedded processors and interfacing,
+                                including microprocessor structure and instruction sets,
+                                programming using C and assembly languages, memory and peripherals, etc.
+                            </p>
+                            <p class="text-muted text-left"> Spring 2020 </p>
+                            <button type=button class="btn btn-primary"> Read more </button>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <span class="btn btn-primary btn-sm m-2"> C</span>
+                            <span class="btn btn-primary btn-sm m-2"> Assembly </span>
+                            <span class="btn btn-primary btn-sm m-2"> Keil for Arm</span>
+                            <span class="btn btn-primary btn-sm m-2"> Microprocessors</span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-md-4 col-lg-3">
+            <!--Card 3-->
+            <div class="col-sm-6 col-lg-4 mb-5">
+                <div class="item-card">
+                    <div class="card-header text-left">
+                        ECE 0402 - Signals, Systems, and Probability
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <p class="lead">
+                                This course covers mathematical modeling and analysis of signals and input-output
+                                systems, probability and statistics, with an empahsis on ECE applications of these
+                                concepts
+                            </p>
+                            <p class="text-muted text-left"> Spring 2020</p>
+                            <button type=button class="btn btn-primary"> Read more </button>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <span class="btn btn-primary btn-sm m-2"> Matlab </span>
+                            <span class="btn btn-primary btn-sm m-2"> Signals </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!--Card 4-->
+            <div class="col-sm-6 col-lg-4 mb-5">
+                <div class="item-card">
+                    <div class="card-header text-left">
+                        ECE 0301 - Problem Solving in C++
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <p class="lead"> This course covers fundamental topics in software design for solving
+                                problems in ECE using C++. Topics include object-oriented programming, searching and
+                                sorting algorithms, and basic data structures. </p>
+                            <p class="text-muted text-left">Fall 2019</p>
+                            <button class="btn btn-primary">Read more </button>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <span class="btn btn-primary btn-sm m-2"> C++</span>
+                            <span class="btn btn-primary btn-sm m-2"> MathGL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card 5-->
+            <div class="col-sm-6 col-lg-4 mb-5">
+                <div class="item-card">
+                    <div class="card-header text-left">
+                        ECE 0201 - Digital Circuits and Systems
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <p class="lead">This course covers the fundamental building blocks used in the design of
+                                modern digital electronics and computers.
+                                Topics inlcude Finite State Machines, Hardware Description Languages, and CPU Design.
+                            </p>
+                            <p class="text-muted text-left">Fall 2019</p>
+                            <button class="btn btn-primary">Read more </button>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <span class="btn btn-primary btn-sm m-2"> VHDL</span>
+                            <span class="btn btn-primary btn-sm m-2"> Quartus Prime</span>
+                            <span class="btn btn-primary btn-sm m-2"> FPGA</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
