@@ -1,0 +1,25 @@
+#navbar{
+    background-color: #004784 !important;
+}
+
+.profile-pic{
+    border: 4px dotted black;
+    border-radius: 50%;
+    height: 130px;
+  
+}
+
+.image-row img{
+    height: 20px;
+    color: black;
+}
+
+.item-card{
+    max-width: 290px;
+}
+
+.card-img{
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+}
