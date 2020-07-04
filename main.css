@@ -3,9 +3,9 @@
 }
 
 .profile-pic{
-    border: 4px dotted black;
+    border: 4px groove black;
     border-radius: 50%;
-    height: 130px;
+    height: 158px;
   
 }
 
@@ -16,6 +16,8 @@
 
 .item-card{
     max-width: 290px;
+    min-height: 90%;
+    margin: 30px;
 }
 
 .card-img{
