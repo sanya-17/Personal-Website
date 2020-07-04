@@ -1,3 +1,3 @@
 # akinakisanya.com
 
-A personal website built with HTML/CSS/Bootstrap. Still in progress as of early June 2020.
+A personal website built with HTML/CSS/Bootstrap. Still in progress as of early July 2020.
