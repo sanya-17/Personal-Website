@@ -39,6 +39,14 @@
         blink-caret .5s step-end infinite;
     }
 }
+
+/*fill screen on smaller screen size */
+@media (max-width:900px)
+{
+    .main-container{
+        width: 90% !important;
+    }
+}
   /* The typing effect */
   @keyframes typing {
     from { width: 0 }
