@@ -7,12 +7,25 @@
     border-radius: 50%;
     height: 190px;
     width: 200px;
-  
 }
 
 .image-row img{
     height: 20px;
     color: black;
+}
+
+.image-row a:hover{
+    text-decoration: none;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+a[href="Akin_Akisanya_resume.pdf"]:hover{
+    text-decoration: none;
+    text-shadow: 2px 2px rgba(0,0,0,0.2);
+    cursor: pointer;
 }
 
 .item-card{
@@ -21,11 +34,20 @@
     margin: 30px;
 }
 
+.item-card.card:hover {
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03);
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .card-img{
     max-width: 200px;
     max-height: 200px;
     margin: auto;
 }
+
 /* typewriter only works if screen width is greater than 720px*/
 @media (min-width:720px)
 {
@@ -47,14 +69,16 @@
         width: 90% !important;
     }
 }
+
+
   /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
+@keyframes typing {
+   from { width: 0 }
+   to { width: 100% }
+}
 
   /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: transparent }
-  } 
+@keyframes blink-caret {
+   from, to { border-color: transparent }
+   50% { border-color: transparent }
+} 
